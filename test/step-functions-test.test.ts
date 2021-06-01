@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as StepFunctionsTest from '../lib/step-functions-test-stack';
+import * as StepFunctionsTest from '../stacks/index';
 
 test('Empty Stack', () => {
     const app = new cdk.App();
